@@ -38,28 +38,28 @@ formatter.match({
   "location": "Add.enterFirstNumber()"
 });
 formatter.result({
-  "duration": 77843576,
+  "duration": 71554204,
   "status": "passed"
 });
 formatter.match({
   "location": "Add.enterSecondNumber()"
 });
 formatter.result({
-  "duration": 45543,
+  "duration": 42656,
   "status": "passed"
 });
 formatter.match({
   "location": "Add.pressSumbutton()"
 });
 formatter.result({
-  "duration": 42977,
+  "duration": 43939,
   "status": "passed"
 });
 formatter.match({
   "location": "Add.displaySum()"
 });
 formatter.result({
-  "duration": 40411,
+  "duration": 33996,
   "status": "passed"
 });
 formatter.scenario({
@@ -94,28 +94,28 @@ formatter.match({
   "location": "Add.enterFirstNumber()"
 });
 formatter.result({
-  "duration": 44581,
+  "duration": 36884,
   "status": "passed"
 });
 formatter.match({
   "location": "Add.enterSecondNumber()"
 });
 formatter.result({
-  "duration": 33034,
+  "duration": 30790,
   "status": "passed"
 });
 formatter.match({
   "location": "Add.pressSumbutton()"
 });
 formatter.result({
-  "duration": 41694,
+  "duration": 29506,
   "status": "passed"
 });
 formatter.match({
   "location": "Add.displaySum()"
 });
 formatter.result({
-  "duration": 32714,
+  "duration": 30469,
   "status": "passed"
 });
 });
