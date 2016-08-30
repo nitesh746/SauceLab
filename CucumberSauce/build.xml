@@ -3,7 +3,7 @@
               Any modifications will be overwritten.
               To include a user specific buildfile here, simply create one in the same
               directory with the processing instruction <?eclipse.ant.import?>
-              as the first entry and export the buildfile again. --><project basedir="." default="AddTwoNumbers" name="CucumberExp">
+              as the first entry and export the buildfile again. --><project basedir="." default="AddTwoNumbers" name="CucumberSauce">
     <property environment="env"/>
     <property name="ECLIPSE_HOME" value="C:/Users/10637028/Documents/eclipse"/>
     <property name="junit.output.dir" value="junit"/>
@@ -42,7 +42,7 @@
         <echo message="${ant.project.name}: ${ant.file}"/>
         <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}" compiler="javac1.7">
             <src path="src"/>
-            <classpath refid="CucumberExp.classpath"/>
+            <classpath refid="CucumberSauce.classpath"/>
         </javac>
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
